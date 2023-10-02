@@ -64,7 +64,7 @@ function atualizaMedia()
 
     const media = soma / notas.length
 
-    document.getElementById('mediaFinal').innerHTML = media
+    document.getElementById('mediaFinal').innerHTML = media.toFixed(2)
     document.getElementById('resultadoFinal').innerHTML = media >= notaMinima ? spanApr : spanRpr
 
 }
